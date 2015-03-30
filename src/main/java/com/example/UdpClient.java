@@ -30,8 +30,7 @@ public class UdpClient {
         return pipleline;
       }
     });
-    future = bootstrap.connect(new InetSocketAddress(8080));
-
+    future = bootstrap.connect(new InetSocketAddress("127.0.0.1", 8080)).sync();
   }
 
   public void sendMsg(String msg) {

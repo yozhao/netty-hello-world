@@ -11,7 +11,6 @@ public class HelloWordMain {
 
     UdpClient udpClient = new UdpClient();
     UdpServer udpServer = new UdpServer();
-
     for (int i = 0; i < 10; ++i) {
       udpClient.sendMsg("Hello World in Udp mode, seq:" + i);
       Thread.sleep(100);
