@@ -12,7 +12,7 @@ You can specify timeout in linden client constructor, else timeout is 3000ms by 
 
 	public Response index(String content) throws Exception
 
-Content is an index request in JSON string format. It contains a “type" field to indicate the operation type, whose value may be index, delete, replace, delete_index or swap_index. Please see Linden Work Mode document for detail.
+Content is an index request in JSON string format. It contains a “type" field to indicate the operation type, whose value may be index, delete, replace, delete_index or swap_index. Please see [Linden Work Mode document](LindenWorkMode.md) for detail.
 
 ###Search
 
