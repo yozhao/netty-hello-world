@@ -2,7 +2,7 @@
 * Linden is a distributed and real-time search system built on top of Lucene
 * Linden provides 2 type data injection ways, LindenClient (sync/push mode, see detail in [Linden Client](LindenClient.md)) and DataProvider (async/pull/stream mode, see detail in [Linden Plugin Gateway section](LindenPlugin.md#gateway))
 * Query language in linden is a SQL-like language named BQL  (see detail in [BQL](BQL.md))
-* Linden provides a very simple way to tune search result rank named Relevance Model (see detail in [BQL](BQL.md))
+* Linden provides a very simple way to tune search result rank named Score Model (see detail in [BQL Score Model section](BQL.md#score-model))
 * Linden also allow user to customize scoring logic from low index level (term, position, frequency) via a linden-customized query (see detail in [Linden Flexible Query document](LindenFlexibleQuery.md))
 * Linden maintains N replicas of each shard index to guarantee availability and fault-tolerance
 * Linden provides a relax consistency, eventual consistency between replicas is guaranteed by maintaining data stream order
