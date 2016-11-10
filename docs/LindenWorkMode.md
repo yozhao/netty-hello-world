@@ -6,7 +6,7 @@ Linden has 3 work modes for different scenarios: simple mode, hot-swap mode and 
 
 **Multi-core mode**: one shard index is split to several sub-indexes according some rules. Each sub-index corresponds to one linden core
  
-In each work mode, linden consumes index data in JSON format from linden client (see detail in Linden Client) or LindenGateWay (see detail in Linden Plugin).
+In each work mode, linden consumes index data in JSON format from linden client (see detail in [Linden Client Document](LindenClient.md#index)) or LindenGateWay (see detail in [Linden Plugin Document](LindenPlugin.md#gateway)).
 There is an operation type field in JSON format data, whose value may be index, delete, replace, swap\_index or delete\_index.
 
 **index**: add a new document or overwriting the old document if it is existed in the same physical index directory.

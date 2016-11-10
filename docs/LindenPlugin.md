@@ -16,7 +16,7 @@ In direct mode, the plugin class can be initialized directly by the function ini
 Your plugin class should implement LindenPlugin interface. init function is called by LindenPluginManager and the config parameter is generated from linden.properties by LindenPluginManager.
 
 #####Gateway
-Linden implements KafkaGateway and SimpleFileGateway in plugin mode, so linden supports indexing data from kafka and text file natively.  Index data is in JSON string format, please see Linden Work Mode document for detail.
+Linden implements KafkaGateway and SimpleFileGateway in plugin mode, so linden supports indexing data from kafka and text file natively.  Index data is in JSON string format, please see [Linden Work Mode Document](LindenWorkMode.md) for detail.
 
 ***com.xiaomi.linden.plugin.gateway.LindenGateway***:
  

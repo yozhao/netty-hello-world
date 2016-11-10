@@ -50,7 +50,7 @@ Linden provides a java client, see detail in [Linden Client Document](docs/Linde
 
 ## Linden HTTP API
 
-Linden also provides RESTful HTTP API, see detail in [Linden HTTP API](docs/LindenHTTPAPI.md).
+Linden also provides RESTful HTTP API, see detail in [Linden HTTP API Document](docs/LindenHTTPAPI.md).
 
 ## Linden Performance
 

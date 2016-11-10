@@ -344,4 +344,4 @@ The explanations result:
 	*** world is matched in text field, positions are [0]
 
 ####Conclusion
-Flexible Query makes user customize scoring logic flexibly.  It provides field boost, term boost, and positions information APIs in score model.  And of course,  Flexible Query score model inherits all features of normal linden score model such as field value access and score model plugin support. See more in [BQL document](BQL.md).
+Flexible Query makes user customize scoring logic flexibly.  It provides field boost, term boost, and positions information APIs in score model.  And of course,  Flexible Query score model inherits all features of normal linden score model such as field value access and score model plugin support. See more in [BQL Document](BQL.md#score-model).

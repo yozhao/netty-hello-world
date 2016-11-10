@@ -1,6 +1,6 @@
 # BQL
 BQL (Browsing Query Language) is the only query language between user and Linden.
-BQL is an SQL-like Language. We use BQL to represent a query so that it is easy to understand.
+BQL is a SQL-like Language. We use BQL to represent a query so that it is easy to understand.
 
 # BASIC KEYWORD
     SELECT * FROM LINDEN BY QUERY IS "title:McDonald^0.8 and address:beijing" WHERE price < 100 LIMIT 0,10 EXPLAIN SOURCE
