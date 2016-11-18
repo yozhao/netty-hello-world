@@ -1,4 +1,7 @@
+
 # Linden
+
+![Linden Logo](docs/images/linden-logo-120px.png)
 
 Linden is a distributed and real-time search system built on top of Lucene. Linden is widely used in Xiaomi. Linden provides a SQL-like query language interface named BQL(Browsing Query Language). BQL is simple and straightforward. Linden provides a very simple way to tune search result rankings. You can pass a piece of JAVA scoring code or even a scoring plugin class name in your query. Linden also supports customizing scoring logic from low index level via linden flexible query, you can get each query term match information(position, frequency and score), so that you can make a very intuitive scoring logic. This is very convenient for beginners.
 
